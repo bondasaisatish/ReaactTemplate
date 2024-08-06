@@ -1,0 +1,121 @@
+ a .btn1{
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 0px 10px;
+}
+a .btn1:hover{
+    background-color:rgb(5, 5, 67);
+    color: white;
+}
+a .active1{
+    background-color: rgb(5, 5, 67);
+    color: white;
+ }
+ .marnrow3{
+    margin-left: 20px;
+ }
+.bgImg{
+    background: url("https://s-i.huffpost.com/gen/1202691/images/o-OUTDOOR-BEDS-facebook.jpg");
+    background-size: 100% 100%;
+    height: 610px;
+    filter: brightness(85%);
+}
+
+.h6bottom{
+    position: relative;
+    top:160px
+}
+
+.card-img-overlay {
+    display: flex;
+    align-items: end;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+
+.bgribbon{
+    background-image: url("https://media.istockphoto.com/id/627629002/photo/shiny-blue-ribbon.jpg?s=612x612&w=0&k=20&c=TjfNQiUZSv5dxu1c-hl_-nPpSBh5D--nCrdA3qHDHUM=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.bghotel{
+    background-image:url("https://images.unsplash.com/photo-1504652517000-ae1068478c59?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwbmlnaHR8ZW58MHx8MHx8fDA%3D");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.col-md-4 .card2{
+    position:relative;
+    padding: 15px;
+    padding-top: 70px;
+    background-color: rgba(166, 178, 178, 0.6);
+    background-color: #83838d;
+  }
+  .footerbg{
+    background-color:#1A1C51
+  }
+  
+  
+  .card2 .card-img-top{
+    position:absolute;
+    bottom: 75%;
+    left: 30%;
+  }
+  
+  .pdt{
+    padding-top: 20px;
+  }
+
+  .liststyle ul li{
+    list-style: none;
+  }
+  .footer_logo{
+    text-align: center;
+  }
+
+.bgbtn{
+    background-color:#1A1C51;
+    color:white;
+    padding: 2px;
+}
+.spclofferimgs{
+    width: 322px;
+    height: 350px;
+    object-fit: cover;
+}
+.spclofferimgs2{
+    width:640px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width:768px) {
+    .search-bar{
+        display: none;
+    }
+    .card1{
+        margin: 7px 0px;
+    } 
+    .footer_logo{
+        text-align: start;
+    }  
+    .clsfoot{
+        display: block !important;
+    }
+    .spclofferimgs2{
+        width:100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .spclofferimgs{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+}

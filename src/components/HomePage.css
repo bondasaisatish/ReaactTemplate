@@ -1,0 +1,40 @@
+.hero-section {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-form .form-control {
+    width: 200px;
+}
+
+/* .card {
+    overflow: hidden;
+} */
+
+.card img {
+    transition: transform 0.2s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    color: #fff;
+}
+
+footer h5 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.himg{
+    background: url("https://s-i.huffpost.com/gen/1202691/images/o-OUTDOOR-BEDS-facebook.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
